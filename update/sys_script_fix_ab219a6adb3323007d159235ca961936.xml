@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>test import</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[//x_8821_mn_snug_feb_import_random_user
+var obj = {
+	gender: "female",
+	name_title: "mrs",
+	name_first: "jane",
+	name_last: "doe",
+	location_street: "123 simpson dr",
+	location_city: "burnsville",
+	location_state: "minnesota",
+	location_postcode: "55422",
+	email: "jane@example.com",
+	login_username: "jane_doe",
+	dob_date: "1963-07-06T23:48:02Z",
+	phone: "123-123-1230",
+	cell: "345-345-3450",
+	picture_medium: "https://randomuser.me/api/portraits/med/women/68.jpg",
+	nat: "US"
+};
+var importGR = new GlideRecord('x_8821_mn_snug_feb_import_random_user');
+for(var prop in obj){
+	importGR.setValue('u_' + prop, obj[prop]);
+	gs.info('u_' + prop + ': ' + obj[prop]);
+}
+importGR.insert();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-02-26 09:36:02</sys_created_on>
+        <sys_id>ab219a6adb3323007d159235ca961936</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test import</sys_name>
+        <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
+        <sys_update_name>sys_script_fix_ab219a6adb3323007d159235ca961936</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-02-26 09:40:34</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
