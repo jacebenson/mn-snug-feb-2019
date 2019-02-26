@@ -7,12 +7,12 @@
         <name>test import</name>
         <record_for_rollback>false</record_for_rollback>
         <run_once>true</run_once>
-        <script><![CDATA[//x_8821_mn_snug_feb_import_random_user
+        <script><![CDATA[var utils = new x_8821_mn_snug_feb.Utils();
 var obj = {
 	"gender":"female",
 	"name":{
 		"title":"mrs",
-		"first":"sylvana",
+		"first":"jace",
 		"last":"hetzel"
 	},
 	"location":{
@@ -60,43 +60,21 @@ var obj = {
 	},
 	"nat":"DE"
 };
-var importGR = new GlideRecord('x_8821_mn_snug_feb_import_random_user');
-try{
-	for(var prop in obj){
-		if (typeof obj[prop] != "object"){
-			importGR.setValue('u_' + prop, obj[prop]);
-			gs.info('u_' + prop + ': ' + obj[prop]);
-		} else {
-			for (var subprop in obj[prop]){
-				if (typeof obj[prop][subprop] != "object"){
-					importGR.setValue('u_' + prop + '.' + subprop, obj[prop][subprop]);	
-					gs.info('u_' + prop + '.' + subprop + ': ' + obj[prop][subprop]);		
-				} else {
-					for (var subsubprop in obj[prop][subprop]){
-						importGR.setValue('u_' + prop + '.' + subprop + '.' + subsubprop, obj[prop][subprop][subsubprop]);	
-						gs.info('u_' + prop + '.' + subprop + '.' + subsubprop + ': ' + obj[prop][subprop][subsubprop]);	
-					}
-				}
-			}	
-		}
-	}
-	importGR.insert();
-} catch (err){
-	gs.info(err);
-}
-//importGR.insert();]]></script>
+var flattenedObj = utils.flatten(obj);
+gs.info(JSON.stringify(flattenedObj));
+utils.test(flattenedObj);]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-02-26 09:36:02</sys_created_on>
         <sys_id>ab219a6adb3323007d159235ca961936</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>test import</sys_name>
         <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
         <sys_policy/>
         <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
         <sys_update_name>sys_script_fix_ab219a6adb3323007d159235ca961936</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-02-26 10:13:22</sys_updated_on>
+        <sys_updated_on>2019-02-26 11:04:20</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

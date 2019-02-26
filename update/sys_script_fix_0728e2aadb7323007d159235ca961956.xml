@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>test rest call</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var utils = new x_8821_mn_snug_feb.Utils();
+var response = utils.getUsers(10, 1);
+//gs.info(JSON.stringify(response));
+for(var user in response){
+	var flatUser = utils.flatten(response[user]);
+	utils.insert(flatUser);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-02-26 11:11:33</sys_created_on>
+        <sys_id>0728e2aadb7323007d159235ca961956</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test rest call</sys_name>
+        <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
+        <sys_update_name>sys_script_fix_0728e2aadb7323007d159235ca961956</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-02-26 11:34:04</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

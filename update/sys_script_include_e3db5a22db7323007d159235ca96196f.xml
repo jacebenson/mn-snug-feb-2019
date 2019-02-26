@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_8821_mn_snug_feb.Utils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Utils</name>
+        <script><![CDATA[var Utils = Class.create();
+Utils.prototype = {
+	initialize: function() {
+	},
+	getUsers: function(size, pg){
+		var page = pg == "undefined" ? 1 : pg;//if undefined, now 1
+		var resultSize = size == "undefined" ? 10 : size;//if undefined, now 10
+		var restMessage = new sn_ws.RESTMessageV2();
+		//restMessage.setBasicAuth("", "");
+		restMessage.setHttpMethod("get");
+		restMessage.setEndpoint("https://randomuser.me/api/?seed=sn&page="+page+"&results=" + resultSize);
+		restMessage.setRequestBody(JSON.stringify());
+		var response = restMessage.execute();
+		if(response.haveError()){
+			var errorCode = response.getErrorCode();
+			var errorMsg = response.getErrorMessage();
+			gs.info(errorCode + ": " + errorMsg);
+		} else {
+			var headerVal = response.getHeader("Content-Type");
+			var headers = response.getHeaders();
+			var queryString = response.getQueryString();
+			var statusCode = response.getStatusCode();
+			var responseBody = response.getBody();
+			//gs.info(statusCode);
+			//gs.info(responseBody);
+			var responseObj = JSON.parse(responseBody);
+			return responseObj.results;
+		}
+	},
+	flatten: function(data) {
+		var result = {};
+		function recurse (cur, prop) {
+			if (Object(cur) !== cur) {
+				result[prop] = cur;
+			} else if (Array.isArray(cur)) {
+				for(var i=0, l=cur.length; i<l; i++)
+					recurse(cur[i], prop + "[" + i + "]");
+				if (l == 0)
+					result[prop] = [];
+			} else {
+				var isEmpty = true;
+				for (var p in cur) {
+					isEmpty = false;
+					recurse(cur[p], prop ? prop+"."+p : p);
+				}
+				if (isEmpty && prop)
+					result[prop] = {};
+			}
+		}
+		recurse(data, "");
+		return result;
+	},
+	insert:function(obj){
+		gs.info('in test: ' + JSON.stringify(obj));
+		var importGR = new GlideRecord('x_8821_mn_snug_feb_import_random_user');
+		var regex = /\./gm;
+		for(var prop in obj){
+			var column = prop.replace(regex, '_');
+			importGR.setValue('u_' + column, obj[prop]);
+			//gs.info('importGR.setValue("u_' + prop + '","' + obj[prop] + '");');
+		}
+		importGR.insert();
+	},
+	type: 'Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-02-26 10:18:49</sys_created_on>
+        <sys_id>e3db5a22db7323007d159235ca96196f</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Utils</sys_name>
+        <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
+        <sys_update_name>sys_script_include_e3db5a22db7323007d159235ca96196f</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-02-26 11:32:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
