@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cd961a6edb3323007d159235ca961973" sys_domain="global" table="x_8821_mn_snug_feb_import_random_user" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>8d961a6edb3323007d159235ca961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_coo_ates_longitude</element>
+            <position>1</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>05961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_timezone_offset</element>
+            <position>2</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>85961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_sha1</element>
+            <position>3</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>09961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name_last</element>
+            <position>4</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>89961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_picture_medium</element>
+            <position>5</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>0d961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dob_age</element>
+            <position>6</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>8d961a6edb3323007d159235ca96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_id_value</element>
+            <position>7</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>01961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_state</element>
+            <position>8</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>81961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_password</element>
+            <position>9</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>05961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_uuid</element>
+            <position>10</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>85961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>11</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>09961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_registered_date</element>
+            <position>12</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>89961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_gender</element>
+            <position>13</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>0d961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_coo_nates_latitude</element>
+            <position>14</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>8d961a6edb3323007d159235ca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_tim_ne_description</element>
+            <position>15</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>01961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_sha256</element>
+            <position>16</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>81961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>05961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name_title</element>
+            <position>18</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>85961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_picture_thumbnail</element>
+            <position>19</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>09961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dob_date</element>
+            <position>20</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>89961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_city</element>
+            <position>21</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>0d961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_street</element>
+            <position>22</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>8d961a6edb3323007d159235ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_salt</element>
+            <position>23</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_id>01961a6edb3323007d159235ca96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name_first</element>
+            <position>24</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>81961a6edb3323007d159235ca96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_picture_large</element>
+            <position>25</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>05961a6edb3323007d159235ca96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cell</element>
+            <position>26</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>85961a6edb3323007d159235ca96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_id_name</element>
+            <position>27</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>c1965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_postcode</element>
+            <position>28</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>45965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_md5</element>
+            <position>29</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>c5965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_login_username</element>
+            <position>30</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>49965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nat</element>
+            <position>31</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>c9965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_registered_age</element>
+            <position>32</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>4d965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>33</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>cd965a6edb3323007d159235ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>34</position>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:19</sys_created_on>
+            <sys_id>41965a6edb3323007d159235ca961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_8821_mn_snug_feb_import_random_user" sys_domain="global" view="Default view">cd961a6edb3323007d159235ca961973</sys_ui_section>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_8821_mn_snug_feb_import_random_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jacebenson</sys_created_by>
+            <sys_created_on>2019-02-26 09:54:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd961a6edb3323007d159235ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_8821_mn_snug_feb_import_random_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
+            <sys_update_name>sys_ui_section_cd961a6edb3323007d159235ca961973</sys_update_name>
+            <sys_updated_by>jacebenson</sys_updated_by>
+            <sys_updated_on>2019-02-26 09:54:18</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="import_random_user" max_length="40" name="x_8821_mn_snug_feb_import_random_user" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cell" label="cell" max_length="40" name="u_cell" type="string"/>
+        <element attributes="import_attribute_name=dob.age" label="dob.age" max_length="40" name="u_dob_age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dob.date" label="dob.date" max_length="40" name="u_dob_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=email" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=gender" label="gender" max_length="40" name="u_gender" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id.name" label="id.name" max_length="40" name="u_id_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id.value" label="id.value" max_length="40" name="u_id_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location.city" label="location.city" max_length="40" name="u_location_city" type="string"/>
+        <element attributes="import_attribute_name=location.coordinates.longitude" label="location.coordinates.longitude" max_length="40" name="u_location_coo_ates_longitude" type="float"/>
+        <element attributes="import_attribute_name=location.coordinates.latitude" label="location.coordinates.latitude" max_length="40" name="u_location_coo_nates_latitude" type="float"/>
+        <element attributes="import_attribute_name=location.postcode" label="location.postcode" max_length="40" name="u_location_postcode" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location.state" label="location.state" max_length="40" name="u_location_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location.street" label="location.street" max_length="40" name="u_location_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location.timezone.offset" label="location.timezone.offset" max_length="40" name="u_location_timezone_offset" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location.timezone.description" label="location.timezone.description" max_length="40" name="u_location_tim_ne_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.md5" label="login.md5" max_length="40" name="u_login_md5" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.password" label="login.password" max_length="40" name="u_login_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.salt" label="login.salt" max_length="40" name="u_login_salt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.sha1" label="login.sha1" max_length="40" name="u_login_sha1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.sha256" label="login.sha256" max_length="64" name="u_login_sha256" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.username" label="login.username" max_length="40" name="u_login_username" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=login.uuid" label="login.uuid" max_length="40" name="u_login_uuid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name.first" label="name.first" max_length="40" name="u_name_first" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name.last" label="name.last" max_length="40" name="u_name_last" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name.title" label="name.title" max_length="40" name="u_name_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nat" label="nat" max_length="40" name="u_nat" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=phone" label="phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=picture.large" label="picture.large" max_length="48" name="u_picture_large" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=picture.medium" label="picture.medium" max_length="52" name="u_picture_medium" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=picture.thumbnail" label="picture.thumbnail" max_length="54" name="u_picture_thumbnail" type="string"/>
+        <element attributes="import_attribute_name=registered.age" label="registered.age" max_length="40" name="u_registered_age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=registered.date" label="registered.date" max_length="40" name="u_registered_date" type="string"/>
+    </element>
+</database>

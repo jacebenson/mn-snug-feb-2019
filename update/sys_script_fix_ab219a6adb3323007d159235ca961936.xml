@@ -9,40 +9,94 @@
         <run_once>true</run_once>
         <script><![CDATA[//x_8821_mn_snug_feb_import_random_user
 var obj = {
-	gender: "female",
-	name_title: "mrs",
-	name_first: "jane",
-	name_last: "doe",
-	location_street: "123 simpson dr",
-	location_city: "burnsville",
-	location_state: "minnesota",
-	location_postcode: "55422",
-	email: "jane@example.com",
-	login_username: "jane_doe",
-	dob_date: "1963-07-06T23:48:02Z",
-	phone: "123-123-1230",
-	cell: "345-345-3450",
-	picture_medium: "https://randomuser.me/api/portraits/med/women/68.jpg",
-	nat: "US"
+	"gender":"female",
+	"name":{
+		"title":"mrs",
+		"first":"sylvana",
+		"last":"hetzel"
+	},
+	"location":{
+		"street":"erlenweg 73",
+		"city":"mühlheim am main",
+		"state":"schleswig-holstein",
+		"postcode":46180,
+		"coordinates":{
+			"latitude":"-37.2205",
+			"longitude":"108.6411"
+		},
+		"timezone":{
+			"offset":"+9:00",
+			"description":"Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+		}
+	},
+	"email":"sylvana.hetzel@example.com",
+	"login":{
+		"uuid":"e55e649e-63ce-48de-ac49-af5cbdaf1f30",
+		"username":"organicostrich996",
+		"password":"dawg",
+		"salt":"mX4I23PV",
+		"md5":"5e03b0f7d4c518eef0347d700c6a221e",
+		"sha1":"bbacddc12182db906b88a53ddc2de47114352753",
+		"sha256":"44c80900dfa19d535aec69613d1b25837ed19b3eaa7cd51a114e3367d3e2de85"
+	},
+	"dob":{
+		"date":"1963-07-06T23:48:02Z",
+		"age":55
+	},
+	"registered":{
+		"date":"2015-01-21T01:07:39Z",
+		"age":4
+	},
+	"phone":"0869-1920913",
+	"cell":"0174-3086553",
+	"id":{
+		"name":"",
+		"value":null
+	},
+	"picture":{
+		"large":"https://randomuser.me/api/portraits/women/68.jpg",
+		"medium":"https://randomuser.me/api/portraits/med/women/68.jpg",
+		"thumbnail":"https://randomuser.me/api/portraits/thumb/women/68.jpg"
+	},
+	"nat":"DE"
 };
 var importGR = new GlideRecord('x_8821_mn_snug_feb_import_random_user');
-for(var prop in obj){
-	importGR.setValue('u_' + prop, obj[prop]);
-	gs.info('u_' + prop + ': ' + obj[prop]);
+try{
+	for(var prop in obj){
+		if (typeof obj[prop] != "object"){
+			importGR.setValue('u_' + prop, obj[prop]);
+			gs.info('u_' + prop + ': ' + obj[prop]);
+		} else {
+			for (var subprop in obj[prop]){
+				if (typeof obj[prop][subprop] != "object"){
+					importGR.setValue('u_' + prop + '.' + subprop, obj[prop][subprop]);	
+					gs.info('u_' + prop + '.' + subprop + ': ' + obj[prop][subprop]);		
+				} else {
+					for (var subsubprop in obj[prop][subprop]){
+						importGR.setValue('u_' + prop + '.' + subprop + '.' + subsubprop, obj[prop][subprop][subsubprop]);	
+						gs.info('u_' + prop + '.' + subprop + '.' + subsubprop + ': ' + obj[prop][subprop][subsubprop]);	
+					}
+				}
+			}	
+		}
+	}
+	importGR.insert();
+} catch (err){
+	gs.info(err);
 }
-importGR.insert();]]></script>
+//importGR.insert();]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-02-26 09:36:02</sys_created_on>
         <sys_id>ab219a6adb3323007d159235ca961936</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>test import</sys_name>
         <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
         <sys_policy/>
         <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
         <sys_update_name>sys_script_fix_ab219a6adb3323007d159235ca961936</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-02-26 09:40:34</sys_updated_on>
+        <sys_updated_on>2019-02-26 10:13:22</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
