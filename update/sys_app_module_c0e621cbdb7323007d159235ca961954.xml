@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="MN SNUG Feb">c8a6698bdb7323007d159235ca961923</application>
         <assessment/>
         <content_page/>
@@ -9,33 +9,33 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>import_random_user</mobile_title>
+        <mobile_title>Create this in Global</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_8821_mn_snug_feb_import_random_user</name>
-        <order>1100</order>
+        <name/>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>/sys_script_include.do?sys_id=-1&amp;sysparm_query=name=executeTransform^access=public^description=This allows access to transform from within a scope^script=var%20executeTransform%20=%20Class.create();%0AexecuteTransform.prototype%20=%20{%0A%09runTransform:%20function%20(importSetID,%20transformID){%0A%09%09var%20transformWorker%20=%20new%20GlideImportSetTransformerWorker(importSetID,%20transformID);%0A%09%09transformWorker.setBackground(true);%0A%09%09transformWorker.start();%0A%09},%0A%09type:%20%27executeTransform%27%0A};</query>
         <report/>
-        <roles/>
+        <roles>admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-02-26 09:54:07</sys_created_on>
+        <sys_created_on>2019-02-27 19:43:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8e861a6edb3323007d159235ca961959</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>import_random_user</sys_name>
+        <sys_id>c0e621cbdb7323007d159235ca961954</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create this in Global</sys_name>
         <sys_overrides/>
         <sys_package display_value="mn snug feb" source="x_8821_mn_snug_feb">12fbc6a2db3323007d159235ca961919</sys_package>
         <sys_policy/>
         <sys_scope display_value="mn snug feb">12fbc6a2db3323007d159235ca961919</sys_scope>
-        <sys_update_name>sys_app_module_8e861a6edb3323007d159235ca961959</sys_update_name>
+        <sys_update_name>sys_app_module_c0e621cbdb7323007d159235ca961954</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-02-27 19:42:41</sys_updated_on>
+        <sys_updated_on>2019-02-27 19:52:04</sys_updated_on>
         <timeline_page/>
-        <title>import_random_user</title>
+        <title>Create this in Global</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
